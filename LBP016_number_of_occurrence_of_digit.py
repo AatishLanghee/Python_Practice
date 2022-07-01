@@ -1,3 +1,23 @@
+########################################################################################################
+# Question: Number of Occurrences
+
+# Program to find number of occurrences of the given digit in the number n
+
+# input ------> two numbers n and d
+# constraints-> no constraints
+# output -----> number of occurrences
+
+# Logic:
+# ------
+# counter=0
+# while(n!=0)
+# {
+# 	d=n%10;
+# 	if(digit is d)
+# 	   increment counter variable
+# 	n=n/10;
+# }
+########################################################################################################
 def number_of_occurrence_of_digit(num_: int, digit_: int) -> None:
     print(f'Given number is: {num_}')
     print(f'Given digit to find occurrence is: {digit_}')

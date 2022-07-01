@@ -1,3 +1,14 @@
+########################################################################################################
+# Question: Sum of odd Digits
+
+# Implement a program to calculate sum of odd digits present in the given number.
+
+# input -------------> a number from the user
+# constraint --------> n>0
+# output ------------> print sum of odd digits
+
+########################################################################################################
+
 def sum_of_odd_digits(num_: int) -> None:
     print(f'Given number is: {num_}')
     sum_: int = 0

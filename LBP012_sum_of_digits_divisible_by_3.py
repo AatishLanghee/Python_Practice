@@ -1,3 +1,24 @@
+########################################################################################################
+# Question: Sum of Digits  divisible by 3
+
+# Implement a program to calculate sum of digits that are divisible by 3 in the given number
+
+# input -------------> a number from the user
+# constraint --------> n>0
+# output ------------> print sum of digits that are divisible by 3
+
+# Logic1:
+# -------
+# s=0
+# while(n!=0)
+# {
+#     d=n%10;
+#     if d%3==0
+#        s=s+d
+#     n=n/10
+# }
+########################################################################################################
+
 def sum_of_digits_divisible_by_3(num_: int) -> None:
     print(f'Given number is: {num}')
     sum_: int = 0

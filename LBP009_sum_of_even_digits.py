@@ -1,3 +1,14 @@
+########################################################################################################
+# Question: Sum of even Digits
+
+# Implement a program to calculate sum of even digits present in the given number
+
+# input -------------> a number from the user
+# constraint --------> n>0
+# output ------------> print sum of even digits
+
+########################################################################################################
+
 def sum_of_even_digits(num_: int) -> None:
     print(f'Given number is: {num_}')
     sum_: int = 0
