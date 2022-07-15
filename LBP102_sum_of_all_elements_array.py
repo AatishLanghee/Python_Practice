@@ -1,5 +1,5 @@
 ########################################################################################################
-# Question: Student Rewarded
+# Question: Student Rewarded Question
 
 # You are given a string representing an attendance record for a student.
 # The record only contains the following three characters:
