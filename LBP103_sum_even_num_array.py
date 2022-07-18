@@ -1,24 +1,27 @@
 ########################################################################################################
-# Question: sum of all elements in array
+# Question: sum of even numbers in an array
 
-# Implement a program to read an array elements and print sum of all its elements.
+# Implement a program to read an array elements and print sum of all even elements.
 
 # input -------> size of the array and array elements
 # con ---------> size<100
-# output ------> sum of all elements
+# output ------> sum of all even elements
 
-# logic:
+# Logic:
 # ~~~~~~
-# s=0
+# s=0;
 # for(i=0;i<n;i++){
-# s=s+a[i];
+# 	if(a[i]%2==0){
+# 	s=s+a[i];
+# 	}
 # }
 ########################################################################################################
 def first_approach(size_t: int) -> int:
     sum_t: int = 0
     for i in range(size_t):
         element: int = int(input(f"Enter the {i+1} element of array :"))
-        sum_t += element
+        if (element % 2) == 0:
+            sum_t += element
     return sum_t
 
 
